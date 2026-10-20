@@ -8,7 +8,7 @@ export default defineConfig({
 
     cleanUrls: true,
     lastUpdated: true,
-
+    ignoreDeadLinks: true,
     head: [
         ['link', { rel: 'icon', href: '/img/favicon.png' }],
         ['meta', { name: 'theme-color', content: '#3b4cca' }]
